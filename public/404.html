@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050506" />
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="Page not found — return to Shanjid Ahmed Rafi's portfolio." />
+    <link rel="canonical" href="https://www.sanny.pro/404.html" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>404 — Signal Lost · sanny.pro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --void: #050506;
+        --deep: #0b0b0d;
+        --line: rgba(245, 240, 230, 0.13);
+        --cream: #f5f0e4;
+        --cream-soft: #e9e2d2;
+        --dim: #98938a;
+        --gold: #e8c987;
+        --display: 'Unbounded', sans-serif;
+        --body: 'Space Grotesk', sans-serif;
+        --mono: 'JetBrains Mono', monospace;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        min-height: 100%;
+        background: var(--void);
+        color: var(--cream);
+        font-family: var(--body);
+      }
+
+      body {
+        min-height: 100dvh;
+        display: grid;
+        place-items: center;
+        padding: 2rem 1.25rem;
+        position: relative;
+        overflow: hidden;
+      }
+
+      body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background:
+          radial-gradient(ellipse 80% 50% at 50% -10%, rgba(232, 201, 135, 0.08), transparent 55%),
+          radial-gradient(ellipse at 50% 100%, rgba(3, 3, 4, 0.85), transparent 45%),
+          radial-gradient(1px 1px at 12% 18%, rgba(245, 240, 228, 0.55), transparent),
+          radial-gradient(1px 1px at 78% 22%, rgba(245, 240, 228, 0.4), transparent),
+          radial-gradient(1.5px 1.5px at 34% 72%, rgba(245, 240, 228, 0.35), transparent),
+          radial-gradient(1px 1px at 88% 68%, rgba(245, 240, 228, 0.45), transparent),
+          radial-gradient(1px 1px at 55% 40%, rgba(245, 240, 228, 0.3), transparent),
+          radial-gradient(1px 1px at 22% 48%, rgba(245, 240, 228, 0.25), transparent);
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      .wrap {
+        position: relative;
+        z-index: 1;
+        width: min(560px, 100%);
+        text-align: center;
+      }
+
+      .eyebrow {
+        font-family: var(--mono);
+        font-size: 0.68rem;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+        color: var(--dim);
+        margin-bottom: 1.5rem;
+      }
+
+      .eyebrow b {
+        color: var(--gold);
+        font-weight: 400;
+      }
+
+      .code {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: clamp(5.5rem, 22vw, 9rem);
+        line-height: 0.9;
+        letter-spacing: -0.04em;
+        color: var(--cream);
+        margin-bottom: 1rem;
+        text-shadow: 0 0 80px rgba(245, 240, 228, 0.18);
+      }
+
+      .code span {
+        color: var(--gold);
+      }
+
+      h1 {
+        font-family: var(--display);
+        font-weight: 700;
+        font-size: clamp(1.35rem, 4vw, 1.85rem);
+        letter-spacing: -0.02em;
+        margin-bottom: 0.85rem;
+      }
+
+      p {
+        color: var(--dim);
+        font-size: 1.02rem;
+        line-height: 1.65;
+        max-width: 36ch;
+        margin: 0 auto 2rem;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        justify-content: center;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 3rem;
+        padding: 0 1.35rem;
+        font-family: var(--mono);
+        font-size: 0.72rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 1px solid var(--line);
+        transition: background 0.25s, color 0.25s, border-color 0.25s, transform 0.25s;
+      }
+
+      .btn-primary {
+        background: var(--cream);
+        color: var(--void);
+        border-color: var(--cream);
+      }
+
+      .btn-primary:hover {
+        background: var(--gold);
+        border-color: var(--gold);
+        transform: translateY(-1px);
+      }
+
+      .btn-ghost {
+        background: transparent;
+        color: var(--cream-soft);
+      }
+
+      .btn-ghost:hover {
+        border-color: var(--cream);
+        color: var(--cream);
+        transform: translateY(-1px);
+      }
+
+      .path {
+        margin-top: 2.25rem;
+        font-family: var(--mono);
+        font-size: 0.65rem;
+        letter-spacing: 0.08em;
+        color: rgba(152, 147, 138, 0.75);
+        word-break: break-all;
+      }
+
+      .path span {
+        color: var(--gold);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .btn {
+          transition: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <p class="eyebrow">Telemetry <b>ERR</b> · Coordinates unknown</p>
+      <div class="code" aria-hidden="true">4<span>0</span>4</div>
+      <h1>Signal lost in deep space</h1>
+      <p>
+        This sector doesn’t exist on the map. The page you’re looking for drifted out of orbit —
+        or never launched.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="/">Return to base</a>
+        <a class="btn btn-ghost" href="/#contact">Open comms</a>
+      </div>
+      <p class="path" id="lost-path" hidden>Requested path: <span></span></p>
+    </main>
+    <script>
+      (function () {
+        var el = document.getElementById('lost-path');
+        var path = window.location.pathname + window.location.search;
+        if (!el || path === '/' || path === '/404.html') return;
+        el.hidden = false;
+        el.querySelector('span').textContent = path;
+      })();
+    </script>
+  </body>
+</html>
