@@ -11,7 +11,7 @@ export const siteConfig = {
   whatsapp: "https://wa.me/8801309297183",
   github: "https://github.com/shanjid5566",
   linkedin: "https://www.linkedin.com/in/shanjid-ahmed-0b1691157/",
-  siteUrl: "https://www.sanny.pro",
+  siteUrl: "https://shanjid.devs.surf",
   year: 2026,
 };
 

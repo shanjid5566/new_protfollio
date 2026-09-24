@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Prefer www — apex redirects here
-Sitemap: https://www.sanny.pro/sitemap.xml
+Sitemap: https://shanjid.devs.surf/sitemap.xml
