@@ -276,8 +276,8 @@ main{position:relative}
   -webkit-text-stroke:1px rgba(245,240,228,.07);will-change:transform}
 
 .mission-tag{display:inline-flex;align-items:center;gap:.6rem;
-  font-family:var(--mono);font-size:.7rem;letter-spacing:.25em;text-transform:uppercase;
-  color:var(--dim);margin-bottom:1.4rem}
+  font-family:var(--mono);font-size:.85rem;letter-spacing:.25em;text-transform:uppercase;
+  color:#ffffff;margin-bottom:1.4rem}
 .mission-tag::before{content:"";width:2rem;height:1px;background:var(--cream-soft);box-shadow:0 0 8px rgba(245,240,228,.4)}
 .mission-tag .t-num{color:var(--gold)}
 h2.sec-title{font-family:var(--display);font-weight:700;
@@ -397,8 +397,8 @@ h1 .accent{color:var(--gold);text-shadow:0 0 34px rgba(232,201,135,.35)}
   background:var(--void);border:2px solid var(--cream);box-shadow:0 0 12px rgba(245,240,228,.6)}
 .log-item .when{font-family:var(--mono);font-size:.7rem;letter-spacing:.15em;color:var(--gold);text-transform:uppercase}
 .log-item h3{font-family:var(--display);font-weight:500;font-size:1.15rem;margin:.5rem 0 .3rem;color:var(--cream)}
-.log-item .org{color:var(--dim);font-size:.9rem;margin-bottom:.8rem;font-family:var(--mono)}
-.log-item p{color:var(--dim);font-weight:300;max-width:44rem;margin-bottom:.4rem;
+.log-item .org{color:#ffffff;font-size:.9rem;margin-bottom:.8rem;font-family:var(--mono)}
+.log-item p{color:#ffffff;font-weight:300;max-width:44rem;margin-bottom:.4rem;
   text-align:justify;text-justify:inter-word}
 .log-item p::before{content:"▸ ";color:var(--gold)}
 
