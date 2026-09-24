@@ -4,7 +4,7 @@ export const siteConfig = {
   title: "Full Stack Developer",
   tagline: "MERN Stack · PERN Stack · End-to-End Systems",
   location: "Dhaka, Bangladesh",
-  address: "North Kafrul, Kachukhet, Dhaka",
+  address: "Kuril Chowrasta, Vatara, Dhaka",
   email: "shanjidahmed66@gmail.com",
   phone: "+8801309297183",
   phoneDisplay: "+880 1309-297183",
