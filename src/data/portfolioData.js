@@ -6,11 +6,11 @@ export const siteConfig = {
   location: "Dhaka, Bangladesh",
   address: "North Kafrul, Kachukhet, Dhaka",
   email: "shanjidahmed66@gmail.com",
-  phone: "+8801757525035",
-  phoneDisplay: "+880 1757-525035",
-  whatsapp: "https://wa.me/8801757525035",
-  github: "https://github.com/Shariarhosain",
-  linkedin: "https://www.linkedin.com/in/shariar-hosain-sanny/",
+  phone: "+8801309297183",
+  phoneDisplay: "+880 1309-297183",
+  whatsapp: "https://wa.me/8801309297183",
+  github: "https://github.com/shanjid5566",
+  linkedin: "https://www.linkedin.com/in/shanjid-ahmed-0b1691157/",
   siteUrl: "https://www.sanny.pro",
   year: 2026,
 };
@@ -278,9 +278,9 @@ export const educationData = {
 
 export const contactData = {
   logNum: "LOG 06",
-  tag: "ESTABLISH COMMS",
+  tag: "Contact",
   title: "Ready for the",
   titleAccent: "next mission?",
   subtitle:
-    "Whether it's a microservice fleet, a payment pipeline or a realtime system — my channel is open. Transmission usually answered within one Earth day.",
+    "Whether it's a full-stack application, a complex backend workflow or a realtime system — my channel is open. Transmission usually answered within one Earth day.",
 };
