@@ -258,25 +258,20 @@ export const projectsData = {
 
 export const educationData = {
   logNum: "LOG 05",
-  tag: "TRAINING RECORDS",
+  tag: "Academy RECORDS",
   title: "Academy",
   titleAccent: "credentials",
   items: [
     {
-      degree: "B.Sc. in Computer Science & Engineering",
-      institution: "American International University-Bangladesh (AIUB)",
+      degree: "Diploma in Computer Science & Technology",
+      institution: "Tangail Polytechnic Institute (TPI)",
       meta: "2021 — 2025 · Dhaka · GPA",
-      highlight: "3.85 / 4.00",
-    },
-    {
-      degree: "Higher Secondary Certificate (HSC)",
-      institution: "Adamjee Cantonment College",
-      meta: "2017 — 2019 · Dhaka",
+      highlight: "3.81 / 4.00",
     },
     {
       degree: "Secondary School Certificate (SSC)",
-      institution: "Adamjee Cantonment Public School",
-      meta: "2015 — 2017 · Dhaka",
+      institution: "Bangladesh Machine Tools Factory High School",
+      meta: "2019 — 2021 · Dhaka",
     },
   ],
 };

@@ -41,7 +41,7 @@ export default function Projects() {
           ))}
         </div>
       </div>
-      <div className="h-progress" aria-hidden="true">
+      {/* <div className="h-progress" aria-hidden="true">
         <span>MISSION FEED</span>
         <div className="h-bar">
           <i id="hbar" />
@@ -49,7 +49,7 @@ export default function Projects() {
         <span id="hcount">
           01 / {String(total).padStart(2, '0')}
         </span>
-      </div>
+      </div> */}
     </section>
   );
 }

@@ -456,8 +456,8 @@ h1 .accent{color:var(--gold);text-shadow:0 0 34px rgba(232,201,135,.35)}
 .edu-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.2rem}
 .edu{border:1px solid var(--line);border-radius:10px;padding:1.5rem;background:rgba(14,14,17,.7)}
 .edu .deg{font-family:var(--display);font-size:.95rem;font-weight:500;margin-bottom:.4rem;color:var(--cream)}
-.edu .inst{color:var(--dim);font-size:.85rem;font-family:var(--mono)}
-.edu .meta{color:var(--dim);font-size:.8rem;margin-top:.5rem;font-family:var(--mono)}
+.edu .inst{color:#ffffff;font-size:.85rem;font-family:var(--mono)}
+.edu .meta{color:#ffffff;font-size:.8rem;margin-top:.5rem;font-family:var(--mono)}
 .edu .meta b{color:var(--gold)}
 
 #about{justify-content:flex-start;padding-top:var(--nav-offset)}
