@@ -575,13 +575,14 @@ footer b{color:var(--gold)}
     -webkit-overflow-scrolling:touch;
     touch-action:pan-y;
   }
-  #smooth-wrapper,#smooth-content{overflow:visible;touch-action:pan-y}
+  #smooth-wrapper{overflow:visible;touch-action:pan-y}
+  #smooth-content{overflow:hidden;touch-action:pan-y}
 
   /* --- Panel shell: min 100vh, page scrolls naturally --- */
   .panel{
     display:flex;
     flex-direction:column;
-    min-height:var(--section-h);
+    min-height:auto;
     height:auto;
     max-height:none;
     overflow:visible;
@@ -767,7 +768,7 @@ footer b{color:var(--gold)}
     padding-top:var(--nav-offset);
     padding-bottom:var(--m-pad-b);
     justify-content:flex-start;
-    min-height:var(--section-h);
+    min-height:auto;
     height:auto;
   }
   #launchpad .h-progress{display:none}
@@ -962,7 +963,7 @@ footer b{color:var(--gold)}
     padding-top:var(--nav-offset);
     padding-bottom:var(--m-pad-b);
     justify-content:flex-start;
-    min-height:var(--section-h);
+    min-height:auto;
     height:auto;
   }
   #launchpad .h-progress{display:none}
